@@ -1,0 +1,23 @@
+public class caseexample {
+    public static void main(String[] args) {
+        int i;
+
+       String day = "mon"; //example of switch case statement.
+        switch (day) {
+
+
+            case "appa":
+                System.out.println("it is monday");
+                break;
+            case "mon":
+                System.out.println("it is tuesday");
+                break;
+            case "wno":
+                System.out.println("it is wednesday");
+                break;
+            default:
+                System.out.println("invalid day");
+       }
+
+    }
+}
